@@ -1,0 +1,104 @@
+    #headerWrapper {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        top: 50px;
+        overflow: hidden;
+        height: 600px;
+        background-image: url('./background_wrapper.png');
+        background-repeat: no-repeat;
+        background-size: 100% 700px;
+        background-position: top center;
+        background-attachment: fixed;
+    }
+    
+    #logoText {
+        position: absolute;
+        width: 100%;
+        height: 180px;
+        background-image: url('./logo_text.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 70% 180px;
+        top: 50%;
+        margin-top: -90px;
+    }
+    
+    #foreLogo {
+        position: absolute;
+        width: 100%;
+        height: 400px;
+        background-image: url('./logo_chair_right.png');
+        background-size: auto 400px;
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        top: 525px;
+        right: -50px;
+    }
+    
+    #backLogo {
+        position: absolute;
+        width: 100%;
+        height: 350px;
+        background-image: url('./logo_chair_left.png');
+        background-size: auto 350px;
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        top: 400px;
+        right: -25px;
+    }
+    /**
+        * The CSS shown here will not be introduced in the Quickstart guide, but shows
+        * how you can use CSS to style your Element's container.
+    */
+    
+    .FormGroup {
+        margin: 0 15px 20px;
+        padding: 0;
+        border-style: none;
+        background-color: #7795f8;
+        will-change: opacity, transform;
+        box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #829fff;
+        border-radius: 4px;
+    }
+    
+    .FormRow {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-left: 15px;
+        border-top: 1px solid #819efc;
+    }
+    
+    .StripeElement--webkit-autofill {
+        background: transparent !important;
+    }
+    
+    .StripeElement {
+        width: 100%;
+        padding: 11px 15px 11px 0;
+    }
+    
+    .StripeElement {
+        box-sizing: border-box;
+        height: 40px;
+        padding: 10px 12px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        background-color: white;
+        box-shadow: 0 1px 3px 0 #e6ebf1;
+        -webkit-transition: box-shadow 150ms ease;
+        transition: box-shadow 150ms ease;
+    }
+    
+    .StripeElement--focus {
+        box-shadow: 0 1px 3px 0 #cfd7df;
+    }
+    
+    .StripeElement--invalid {
+        border-color: #fa755a;
+    }
+    /* .StripeElement--webkit-autofill {
+        background-color: #fefde5 !important;
+    } */
